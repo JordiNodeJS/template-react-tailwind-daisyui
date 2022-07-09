@@ -11,3 +11,4 @@ cd my-project
 
 degit https://github.com/JordiNodeJS/template-tailwind-daisyui
 ```
+
