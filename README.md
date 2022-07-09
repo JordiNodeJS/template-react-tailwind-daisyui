@@ -9,8 +9,15 @@ Use it as:
 mkdir my-project
 cd my-project
 
-degit https://github.com/JordiNodeJS/template-tailwind-daisyui
+degit https://github.com/JordiNodeJS/template-react-tailwind-daisyui
 ```
+or
+
+```bash
+degit https://github.com/JordiNodeJS/template-react-tailwind-daisyui.git
+```
+
+it creates same template
 
 ## Components base on tailwind
 Copy the templates in **[daisyUI](https://daisyui.com/)** and transform in jsx with:
