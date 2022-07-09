@@ -1,26 +1,32 @@
 function App() {
   return (
     <>
-      <div className='max-w-xs rounded-md shadow-md bg-gray-900 text-gray-100'>
-        <img
-          src='https://source.unsplash.com/random/300x300/?2'
-          alt=''
-          className='object-cover object-center w-full rounded-t-md h-72 bg-gray-500'
-        />
-        <div className='flex flex-col justify-between p-6 space-y-8'>
-          <div className='space-y-2'>
-            <h2 className='text-3xl font-semibold tracking-wide'>Donec lectus leo</h2>
-            <p className='text-gray-100'>
-              Curabitur luctus erat nunc, sed ullamcorper erat vestibulum eget.
-            </p>
-          </div>
-          <button
-            type='button'
-            className='flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-400 text-gray-900'>
-            Read more
-          </button>
-        </div>
-      </div>
+      <button className='btn btn-active'>Button</button>
+      <button className='btn btn-active btn-primary'>Button</button>
+      <button className='btn btn-active btn-secondary'>Button</button>
+      <button className='btn btn-active btn-accent'>Button</button>
+      <button className='btn btn-active btn-ghost'>Button</button>
+      <button className='btn btn-active btn-link'>Button</button>
+      <hr />
+      <button className='btn btn-info'>Info</button>
+      <button className='btn btn-success'>Success</button>
+      <button className='btn btn-warning'>Warning</button>
+      <button className='btn btn-error'>Error</button>
+      <hr />
+      <button className='btn btn-outline'>Button</button>
+      <button className='btn btn-outline btn-primary'>Button</button>
+      <button className='btn btn-outline btn-secondary'>Button</button>
+      <button className='btn btn-outline btn-accent'>Button</button>
+      <hr />
+      <button className='btn btn-outline btn-info'>Info</button>
+      <button className='btn btn-outline btn-success'>Success</button>
+      <button className='btn btn-outline btn-warning'>Warning</button>
+      <button className='btn btn-outline btn-error'>Error</button>
+      <hr />
+      <button className='btn btn-lg'>Large</button>
+      <button className='btn'>Normal</button>
+      <button className='btn btn-sm'>Small</button>
+      <button className='btn btn-xs'>Tiny</button>
     </>
   )
 }

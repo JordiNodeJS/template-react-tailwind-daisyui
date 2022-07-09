@@ -12,3 +12,6 @@ cd my-project
 degit https://github.com/JordiNodeJS/template-tailwind-daisyui
 ```
 
+## Components base on tailwind
+Copy the templates in **[daisyUI](https://daisyui.com/)** and transform in jsx with:
+**[html to jsx](https://transform.tools/html-to-jsx)**
